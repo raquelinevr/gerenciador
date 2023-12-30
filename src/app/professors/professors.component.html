@@ -1,0 +1,13 @@
+<div>
+  <h2>Lista de Professores</h2>
+  <ul>
+    <li *ngFor="let professor of professors">
+      <span>{{ professor.nome }}</span>
+      <span>{{ professor.email }}</span>
+      <span>{{ professor.disciplinas.length }} disciplinas</span>
+      <button (click)="editProfessor(professor)">Editar Professor</button>
+      <button (click)="deleteProfessor(professor.id)">Excluir Professor</button>
+    </li>
+  </ul>
+  <button (click)="addProfessor()">Adicionar Professor</button>
+</div>

@@ -1,0 +1,7 @@
+{
+    "professores": [
+      { "id": 1, "nome": "Joao Silva", "disciplina": "Banco de Dados", "email": "joao@edu.br" },
+      { "id": 2, "nome": "José Vieira", "disciplina": "Redes de Computadores", "email": "vieira@edu.br" },
+      { "id": 3, "nome": "Maria Luz", "disciplina": "Português", "email": "luz@edu.br" }
+    ]
+  }

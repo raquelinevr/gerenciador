@@ -1,0 +1,16 @@
+<div class="card">
+    <h2>Listagem de Professores</h2>
+    <ul>
+      <li *ngFor="let professor of professores" (click)="showDetails(professor)">
+        {{ professor.nome }}
+      </li>
+    </ul>
+    
+    <div *ngIf="selectedProfessor" class="details">
+      <h3>Detalhes do Professor</h3>
+      <p><strong>Nome:</strong> {{ selectedProfessor.nome }}</p>
+      <p><strong>Disciplina:</strong> {{ selectedProfessor.disciplina }}</p>
+      <p><strong>Email:</strong> {{ selectedProfessor.email }}</p>
+    </div>
+  </div>
+  
