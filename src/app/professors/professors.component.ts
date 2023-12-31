@@ -22,18 +22,18 @@ export class ProfessorsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // Aqui você pode chamar um serviço para carregar os professores do backend
+    
   }
 
   addProfessor(): void {
-    // Implemente a lógica para adicionar um professor
+    
   }
 
   editProfessor(professor: Professor): void {
-    // Implemente a lógica para editar um professor
+    
   }
 
   deleteProfessor(id: number): void {
-    // Implemente a lógica para excluir um professor
+    
   }
 }
