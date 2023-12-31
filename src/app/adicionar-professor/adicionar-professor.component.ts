@@ -15,9 +15,9 @@ export class AdicionarProfessorComponent {
   adicionarProfessor(): void {
     this.professorService.adicionarProfessor(this.novoProfessor)
   .subscribe(() => {
-    // Lógica de sucesso após adicionar o professor (por exemplo, redirecionar para outra página)
+    
   }, _ => {
-    // Lógica de tratamento de erro, se necessário
+    
   });
 
   }
